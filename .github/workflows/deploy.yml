@@ -23,10 +23,10 @@ jobs:
  
     - name: Upload PBIX to Power BI
       env:
-        CLIENT_ID: ${{ secrets.CLIENT_ID }}
-        CLIENT_SECRET: ${{ secrets.CLIENT_SECRET }}
-        TENANT_ID: ${{ secrets.TENANT_ID }}
-        WORKSPACE_ID: ${{ secrets.WORKSPACE_ID }}
+        CLIENT_ID: ${{ secrets.CLIENT_ID}}
+        CLIENT_SECRET: ${{ secrets.CLIENT_SECRET}}
+        TENANT_ID: ${{ secrets.TENANT_ID}}
+        WORKSPACE_ID: ${{ secrets.WORKSPACE_ID}}
  
       run: |
         python <<EOF
